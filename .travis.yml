@@ -17,8 +17,8 @@ deploy:
   env: "DockerTest-env-1"
   bucket_name: "elasticbeanstalk-sa-east-1-303511236901"
   bucket_path: "docker-test"
-  branches:
-    only:
-    - master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
+branches:
+  only:
+  - master
